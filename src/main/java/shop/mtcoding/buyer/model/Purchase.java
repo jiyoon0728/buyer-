@@ -7,10 +7,10 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class Product {
+
+public class Purchase {
     private int id;
-    private String name;
-    private int price;
-    private int qty;
-    private Timestamp createdAt;
+    private int userId;
+    private int ProductId;
+    private Timestamp createAt;
 }
