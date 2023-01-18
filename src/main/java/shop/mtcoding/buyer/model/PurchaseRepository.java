@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
 public interface PurchaseRepository {
     public int insert(int userId, int ProductId);
 
-    public List<Product> findAll();
+    public List<Purchase> findAll();
 
     public User findById(int id);
 
